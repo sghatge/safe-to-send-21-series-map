@@ -1,0 +1,40 @@
+{
+  "series": "Safe to Send",
+  "tagline": "28 days of governing AI in CRM operations",
+  "foundations": [
+    {"repo": "acc-agent-gate", "title": "ACC Agent Gate: governance layer between AI agents and Adobe Campaign"},
+    {"repo": "ai-readiness-calculator", "title": "AI Readiness Calculator"},
+    {"repo": "crm-ai-agent-platform", "title": "CRM AI Agent Platform (rules-first workbench)"}
+  ],
+  "weeks": {"1": "The Gate", "2": "The Workbench", "3": "The Knowledge", "4": "The Operating Model"},
+  "episodes": [
+    {"ep": 1, "week": 1, "repo": "safe-to-send-01-agent-blast-radius", "title": "Agent blast radius", "builds_on": []},
+    {"ep": 2, "week": 1, "repo": "safe-to-send-02-five-decisions", "title": "Five decisions, not two", "builds_on": [1]},
+    {"ep": 3, "week": 1, "repo": "safe-to-send-03-policy-as-code", "title": "Policy is a file, not a prompt", "builds_on": [2]},
+    {"ep": 4, "week": 1, "repo": "safe-to-send-04-black-friday-replay", "title": "Black Friday replay", "builds_on": [2, 3]},
+    {"ep": 5, "week": 1, "repo": "safe-to-send-05-presend-qa", "title": "Nine pre-send checks", "builds_on": []},
+    {"ep": 6, "week": 1, "repo": "safe-to-send-06-audit-chain", "title": "Tamper-evident audit", "builds_on": []},
+    {"ep": 7, "week": 1, "repo": "safe-to-send-07-red-team-your-guardrail", "title": "Red-team your guardrail", "builds_on": [2]},
+    {"ep": 8, "week": 2, "repo": "safe-to-send-08-rule-model-or-human", "title": "Rule, model or human?", "builds_on": []},
+    {"ep": 9, "week": 2, "repo": "safe-to-send-09-golden-tests", "title": "Golden tests before models", "builds_on": [8]},
+    {"ep": 10, "week": 2, "repo": "safe-to-send-10-synthetic-market", "title": "Synthetic market with an answer key", "builds_on": [5]},
+    {"ep": 11, "week": 2, "repo": "safe-to-send-11-llm-adapter", "title": "An LLM adapter that fails safe", "builds_on": [8]},
+    {"ep": 12, "week": 2, "repo": "safe-to-send-12-verdict-lock", "title": "Verdict lock", "builds_on": [11, 5]},
+    {"ep": 13, "week": 2, "repo": "safe-to-send-13-approval-inbox", "title": "Approval inbox", "builds_on": [2]},
+    {"ep": 14, "week": 2, "repo": "safe-to-send-14-blameless-postmortem", "title": "Blameless postmortem kit", "builds_on": []},
+    {"ep": 15, "week": 3, "repo": "safe-to-send-15-playbook-linter", "title": "Playbook linter", "builds_on": []},
+    {"ep": 16, "week": 3, "repo": "safe-to-send-16-policy-invariants-ci", "title": "Policy invariants in CI", "builds_on": [3]},
+    {"ep": 17, "week": 3, "repo": "safe-to-send-17-workflow-xray", "title": "Workflow x-ray", "builds_on": []},
+    {"ep": 18, "week": 3, "repo": "safe-to-send-18-journey-patterns", "title": "Journey patterns", "builds_on": []},
+    {"ep": 19, "week": 3, "repo": "safe-to-send-19-local-first-insights", "title": "Local-first insights", "builds_on": []},
+    {"ep": 20, "week": 3, "repo": "safe-to-send-20-fresh-search", "title": "Fresh search over runbooks", "builds_on": []},
+    {"ep": 21, "week": 3, "repo": "safe-to-send-21-series-map", "title": "The series map (this repo)", "builds_on": []},
+    {"ep": 22, "week": 4, "repo": "safe-to-send-22-readiness-score", "title": "AI readiness score", "builds_on": []},
+    {"ep": 23, "week": 4, "repo": "safe-to-send-23-what-if-simulator", "title": "What-if simulator", "builds_on": [22]},
+    {"ep": 24, "week": 4, "repo": "safe-to-send-24-team-roadmap", "title": "From scores to a 90-day plan", "builds_on": [22]},
+    {"ep": 25, "week": 4, "repo": "safe-to-send-25-honest-roi", "title": "Honest ROI", "builds_on": [10, 5]},
+    {"ep": 26, "week": 4, "repo": "safe-to-send-26-cmo-translator", "title": "Explain it to a CMO", "builds_on": []},
+    {"ep": 27, "week": 4, "repo": "safe-to-send-27-data-leak-guard", "title": "Data leak guard for open source", "builds_on": [10]},
+    {"ep": 28, "week": 4, "repo": "safe-to-send-28-preflight", "title": "Preflight: the series in one command", "builds_on": [2, 3, 5, 6, 12]}
+  ]
+}
